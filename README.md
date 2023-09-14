@@ -46,7 +46,7 @@ any other HTTP client.
 
 # 1.Project Setup:
 
-    1. Java Spring Boot API Contoller Setup.
+## 1. Java Spring Boot API Contoller Setup.
 
 ![1_ApiControl1](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/2aaed049-2a07-4b47-aeb7-17c817820956)
 
@@ -55,7 +55,7 @@ any other HTTP client.
 
 
 
-    2. MongoDB Initially ( conatins empty server or data ).
+## 2. MongoDB Initially ( conatins empty server or data ).
     
 ![3_mongoDDyeKrnaHAi](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/bcdbb38b-8973-412a-945e-0318a16e8d5a)
 
@@ -64,46 +64,50 @@ any other HTTP client.
 
 # 2. GET Request ( initially )
 
-  Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data through MongoDB.
-  For now it will return the empty List. [].
+###    Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data through MongoDB.
+
+###    Now it will return the empty List. [].
+
   
  ![6_Initial_get](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/a992158b-2d82-4567-86f4-90e2872f94fb)
 
 
 # 3. POST Request ( Adding data )
 
-  Testing the **POST** Request API ( http://localhost:8080/send) - It will Add the data in the mongoDB.
-  After adding the data,  the message " Data saved to database..." is displayed on Successful addition.
+###   Testing the **POST** Request API ( http://localhost:8080/send) - It will Add the data in the mongoDB.
+
+###   After adding the data,  the message " Data saved to database..." is displayed on Successful addition.
 
   
 ![7_Addding_data_1](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/c0cb020e-42ce-4e11-9230-c5d2466ba6eb)
 
   
-  Adding more data
+###   Adding more data
 
   
 ![8_Adding_data_2](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/b59cbcfc-91c2-42ee-935d-784b075669b0)
 
   
-  Now we have to check whether the data has been added or not.
-  Using  GET Request ( http://localhost:8080/)
+###   Now we have to check whether the data has been added or not.
 
-  Through POSTMAN.
+###   Using  GET Request ( http://localhost:8080/)
+
+##   Through POSTMAN.
   
 ![Get_all_servers_by_slash](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/fd9d80bc-533b-4cbf-bd74-ccb8d8a7063f)
 
   
-  In Mongo-DB.
+##   In Mongo-DB.
   
  ![9final_data](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/504f50a5-f0c0-4f68-96a5-e9aad0671e67)
 
 
-  Ok ALL Set. 
+##   Ok ALL Set. 
   
  
 # 4. PUT Request ( updating the server with id )
 
-   Testing the PUT Request ApI (http://localhost:8080/updata{id}) - Used to Update the data.
+###    Testing the PUT Request ApI (http://localhost:8080/updata{id}) - Used to Update the data.
    
 
     Initially The Parameter "framework"    [ In id = 4 ]
@@ -116,7 +120,7 @@ any other HTTP client.
 ![Update_The_Data](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/a7a559a6-ef38-4259-aed3-34a921cce0d9)
 
 
-After Successful Updation it will display the message "Data is updated..."
+### After Successful Updation it will display the message "Data is updated..."
 
 ### POSTMAN:  Getting The UPDATED Data: In [ id = 4 ]
 
@@ -130,25 +134,26 @@ After Successful Updation it will display the message "Data is updated..."
     
 # 5. DELETE Request ( deleting the server with id)
 
-  Testing the **DELETE** Request API ( http://localhost:8080/delete/{id}) - Used to Delete the data from the Databsae.
-  Now we are going to delete the data having [  "id": 4 ]
+###   Testing the **DELETE** Request API ( http://localhost:8080/delete/{id}) - Used to Delete the data from the Databsae.
+
+###   Now we are going to delete the data having [  "id": 4 ]
 
   
 ![11_DeletedDone](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/906f54c3-8882-485e-8782-d660e1f7bc09)
 
 
-After Successful deletion it will display the message " delete user with id {id}...."
+### After Successful deletion it will display the message " delete user with id {id}...."
 
-Now we have to check whether the data has been deleted or not.
+### Now we have to check whether the data has been deleted or not.
 
    
-POSTMAN -   **GET** Request (http://localhost:8080/)
+## POSTMAN -   **GET** Request (http://localhost:8080/)
 
 ![After_deletoin_postman](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/2dacfef7-a23e-4877-be70-55ec230bf119)
 
 
 
-MONGODB -
+## MONGODB -
 
 ![12_Deleted_show](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/f8342512-8925-42b6-9810-8b39aa671cfc)
 
@@ -157,9 +162,9 @@ MONGODB -
 
 # 6. GET Request ( by id parameter) 
 
- Testing the **GET** Request API  ( http://localhost:8080/{id}) - Used to display the server or data that matches the id.
+###  Testing the **GET** Request API  ( http://localhost:8080/{id}) - Used to display the server or data that matches the id.
 
-POSTMAN API test : 
+## POSTMAN API test : 
 
        `   Example : (http://localhost:8080/4)`
        
@@ -171,10 +176,10 @@ POSTMAN API test :
 # 7. GET Request ( by name parameter)
 
 
-Testing the **GET** Request API  ( http://localhost:8080/{name}) - Used to display the server or data that matches the name.
+### Testing the **GET** Request API  ( http://localhost:8080/{name}) - Used to display the server or data that matches the name.
 
 
-POSTMAN API test : 
+## POSTMAN API test : 
 
        `   Example : (http://localhost:8080/krishna)`
 
@@ -185,7 +190,7 @@ POSTMAN API test :
 
 # 8. GET Request (final - to show all the servers. )
 
-Testing the **GET** Request API  ( http://localhost:8080/)
+### Testing the **GET** Request API  ( http://localhost:8080/)
 
 ![After_deletoin_postman](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/0fca512e-0919-47d6-893b-950b407903e7)
 
