@@ -46,8 +46,7 @@ any other HTTP client.
 # 1.Project Setup:
     1. Java Spring Boot API Contoller Setup.
 
-<img src="https://drive.google.com/file/d/12z97VFdxj9dMovhgbd9lSvd_7DWDZTL9/view?usp=drive_link" alt="img2222" width="24" height="39"/>
-<img src="C:\Users\krish\Documents\kaiburr\Img\1_ApiControl1.png"  width="100%" height="100" />
+<img src="C:\Users\krish\Documents\kaiburr\Img\1_ApiControl1.png"/>
 
 <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\2.png" alt="img"/>
 
