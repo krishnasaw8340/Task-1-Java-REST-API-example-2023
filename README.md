@@ -45,35 +45,37 @@ any other HTTP client.
 
 # 1.Project Setup:
     1. Java Spring Boot API Contoller Setup.
-   ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\1_ApiControl1.png)
-   ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\2.png)
+
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\1_ApiControl1.png"/>
+
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\2.png"/>
 
 
     2. MongoDB Initially ( conatins empty server or data ).
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\3_mongoDDyeKrnaHAi.png)
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\4_SetupFor_mongoSpring.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\3_mongoDDyeKrnaHAi.png"/>
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\4_SetupFor_mongoSpring.png"/>
 
 # 2. GET Request ( initially )
   Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data through MongoDB.
-  For now it will return the empty List. []. 
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\6_Initial_get.png)
+  For now it will return the empty List. [].
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\6_Initial_get.png"/>
 
 # 3. POST Request ( Adding data )
   Testing the **POST** Request API ( http://localhost:8080/send) - It will Add the data in the mongoDB.
   After adding the data,  the message " Data saved to database..." is displayed on Successful addition.
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\7_Addding_data_1.png)
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\7_Addding_data_1.png"/>
   
   Adding more data
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\8_Adding_data_2.png)
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\8_Adding_data_2.png"/>
   
   Now we have to check whether the data has been added or not.
   Using  GET Request ( http://localhost:8080/)
 
   Through POSTMAN.
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\Get_all_servers_by_slash.png)
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\Get_all_servers_by_slash.png"/>
   
   In mongo-db.
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\9final_data.png)
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\9final_data.png"/>
 
   Ok ALL Set. 
  
@@ -86,28 +88,29 @@ any other HTTP client.
     Changed to 
     { "framework" : "Spring" }
 
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\Update_The_Data.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\Update_The_Data.png"/>
 After Successful Updation it will display the message "Data is updated..."
 ### POSTMAN:  Getting The UPDATED Data: In [ id = 4 ]
 
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\put_postman_Updated.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\put_postman_Updated.png"/>
 
-### MongoDB : 
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\put_MongoDb_Updated.png)
+### MongoDB :
+
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\put_MongoDb_Updated.png"/>
     
 # 5. DELETE Request ( deleting the server with id)
   Testing the **DELETE** Request API ( http://localhost:8080/delete/{id}) - Used to Delete the data from the Databsae.
-  Now we are going to delete the data having [  "id": 4 ] 
-  ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\11_DeletedDone.png) 
-     
-   After Successful deletion it will display the message " delete user with id {id}...."
+  Now we are going to delete the data having [  "id": 4 ]
+  <img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\11_DeletedDone.png"/>
+
+After Successful deletion it will display the message " delete user with id {id}...."
 
      Now we have to check whether the data has been deleted or not.
    
 POSTMAN -   **GET** Request (http://localhost:8080/)
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\After_deletoin_postman.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\After_deletoin_postman.png"/>
 MONGODB -
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\12_Deleted_show.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\12_Deleted_show.png"/>
 
 
 # 6. GET Request ( by id parameter) 
@@ -116,8 +119,8 @@ MONGODB -
 POSTMAN API test : 
 
        `   Example : (http://localhost:8080/4)`
-  
- ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\14_IDonly.png)
+
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\14_IDonly.png"/>
 
 
 
@@ -127,11 +130,12 @@ Testing the **GET** Request API  ( http://localhost:8080/{name}) - Used to displ
 POSTMAN API test : 
 
        `   Example : (http://localhost:8080/krishna)`
-![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\13_Server_name.png)
+
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\13_Server_name.png"/>
 
 
 # 8. GET Request (final - to show all the servers. )
 Testing the **GET** Request API  ( http://localhost:8080/)
- ![](C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\After_deletoin_postman.png)
+<img src="C:\Users\krish\Downloads\Kaiburr\Documentation\Task-1\After_deletoin_postman.png"/>
 
   
