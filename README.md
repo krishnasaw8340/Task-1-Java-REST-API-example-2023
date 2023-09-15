@@ -66,7 +66,7 @@ any other HTTP client.
 
 ###    Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data from MongoDB.
 
-###    Now it will return the empty List. [].
+###    As of Now, it will return the empty List. []. 
 
   
  ![6_Initial_get](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/a992158b-2d82-4567-86f4-90e2872f94fb)
