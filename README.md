@@ -122,7 +122,7 @@ any other HTTP client.
 
 ### After Successful Updation it will display the message "Data is updated..."
 
-## Now we are have to check whether the data is updated or not.
+### Now we have to check whether the data is updated or not.
 ### POSTMAN:  Getting The UPDATED Data: In [ id = 4 ]
 
 ![put_postman_Updated](https://github.com/krishnasaw8340/Task-1-Java-REST-API-example-2023/assets/63328010/33841cc1-e684-4ab5-8a72-50b470ea0f98)
