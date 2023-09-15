@@ -64,7 +64,7 @@ any other HTTP client.
 
 # 2. GET Request ( initially )
 
-###    Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data through MongoDB.
+###    Testing the **GET** Request API ( http://localhost:8080/) - It will display or fetch the data from MongoDB.
 
 ###    Now it will return the empty List. [].
 
