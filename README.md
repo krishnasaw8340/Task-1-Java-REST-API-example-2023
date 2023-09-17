@@ -107,7 +107,7 @@ any other HTTP client.
  
 # 4. PUT Request ( updating the server with id )
 
-###    Testing the PUT Request ApI (http://localhost:8080/updata{id}) - Used to Update the data.
+###    Testing the PUT Request API (http://localhost:8080/update{id}) - Used to Update the data.
    
 
     Initially The Parameter "framework"    [ In id = 4 ]
